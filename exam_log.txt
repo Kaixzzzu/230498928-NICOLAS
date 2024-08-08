@@ -1,0 +1,51 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls>>notes.txt
+    5  cat notes.txt
+    6  nano notes.txt
+    7  echo This is a practical exam>>notes.txt
+    8  head -n 1 note.txt
+    9  head -n 1 notes.txt
+   10  tail -n 1 notes.txt
+   11  mkdir subdir
+   12  mc notes.txt
+   13  mc notes.txt subdir/
+   14  mvmv notes.txt subdir/
+   15  mv notes.txt subdir/
+   16  mv subdir practice_subdir
+   17  dir
+   18  cp practice_subdir/notes.txt
+   19  cp practice_subdir/notes.txt .
+   20  dir
+   21  time
+   22  date
+   23  uptime
+   24  disk
+   25  dsk
+   26  usage
+   27  cd
+   28  disk
+   29  dsk
+   30  du
+   31  ssh -v
+   32  ssh --version
+   33  php -v
+   34  mysql -v
+   35  mysql --version
+   36  Apache -v
+   37  apache -v
+   38  apache2 --version
+   39  apache2 -v
+   40  python3 -v
+   41  python --version
+   42  Java -v
+   43  jdk -v
+   44  java --version
+   45  gh repo clone https://github.com/Kaixzzzu/230498928-NICOLAS
+   46  git clone https://github.com/Kaixzzzu/230498928-NICOLAS.git
+   47  cd 230498928-NICOLAS
+   48  cd
+   49  cd 230498928-NICOLAS
+   50  git checkout -b finalexam
+   51  history > exam_log.txt
